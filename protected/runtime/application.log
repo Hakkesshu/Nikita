@@ -2378,3 +2378,769 @@ Stack trace:
 REQUEST_URI=/Sunrise/js/kendo.mobile.min.js
 HTTP_REFERER=http://localhost/test2.php
 ---
+2012/10/19 05:52:51 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/temp/test.php
+---
+2012/10/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "temp/test.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('temp/test.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/temp/test.php
+---
+2012/10/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "temp/test.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('temp/test.php')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/temp/test.php
+---
+2012/10/19 05:55:42 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/
+---
+2012/10/19 05:55:50 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/
+---
+2012/10/19 05:55:51 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/
+---
+2012/10/19 05:55:51 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/
+---
+2012/10/19 05:55:52 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\nikita\protected\extensions\bootstrap\assets" to be published does not exist.' in C:\xampp\htdocs\yii\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#2 C:\xampp\htdocs\nikita\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(388): Bootstrap->init()
+#4 C:\xampp\htdocs\yii\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\yii\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\nikita\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 05:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 06:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 06:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 06:00:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 06:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/
+---
+2012/10/19 06:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/kendoui/kendoui.mobile.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('js/kendoui/kend...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/js/kendoui/kendoui.mobile.min.js
+HTTP_REFERER=http://localhost/nikita/js/kendoui/kendoui.mobile.min.js
+---
+2012/10/19 06:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.common.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.common.min.css
+HTTP_REFERER=http://localhost/nikita/js/kendoui/kendoui.mobile.min.js
+---
+2012/10/19 06:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/kendoui/kendoui.mobile.all.min.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('css/kendoui/ken...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/css/kendoui/kendoui.mobile.all.min.css
+HTTP_REFERER=http://localhost/nikita/js/kendoui/kendoui.mobile.min.js
+---
+2012/10/19 06:06:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sports".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('sports')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\nikita\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/nikita/sports
+HTTP_REFERER=http://localhost/nikita/
+---

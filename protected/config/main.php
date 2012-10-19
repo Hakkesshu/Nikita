@@ -12,7 +12,7 @@ return array(
 	// preloading 'log' component
 	'preload'=>array(
   'log',
-  'bootstrap', // preload the bootstrap component
+  // 'bootstrap', // preload the bootstrap component
   ),
 
 	// autoloading model and component classes
@@ -27,9 +27,9 @@ return array(
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'sunrise',
-      'generatorPaths'=>array(
-        'bootstrap.gii',
-      ),
+      //'generatorPaths'=>array(
+        //'bootstrap.gii',
+      //),
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
@@ -43,9 +43,9 @@ return array(
       'cookieMode' => 'only',
       //'savePath' => '/path/to/new/directory',
     ),
-    'bootstrap'=>array(
-      'class'=>'ext.bootstrap.components.Bootstrap', // assumming you extrated bootstrap under extensions
-    ),
+    //'bootstrap'=>array(
+      //'class'=>'ext.bootstrap.components.Bootstrap', // assumming you extrated bootstrap under extensions
+    //),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
